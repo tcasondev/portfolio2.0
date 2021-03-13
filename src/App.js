@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import NavBar from './NavBar/NavBar'
 import { Route } from 'react-router';
@@ -11,6 +11,7 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Route path='/' component={HomePage} />
       <Route path='/home' component={HomePage} />
       <Route path='/projects' component={ProjectsPage} />
       <Route path='/contact' component={Contact} />
