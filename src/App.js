@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Route path='/' component={HomePage} />
+      <Route exact path='/' component={HomePage} />
       <Route path='/home' component={HomePage} />
       <Route path='/projects' component={ProjectsPage} />
       <Route path='/contact' component={Contact} />
