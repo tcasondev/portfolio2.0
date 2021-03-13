@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    background-color: #afe9ff;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    
+}
+
+.linksList{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 5px
+    ;
+}
+
+li{
+    padding: 5px;
+}
+
+body{
+    
+}
